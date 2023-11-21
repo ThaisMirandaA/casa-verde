@@ -6,17 +6,12 @@ export const StyledFooter = styled.footer`
     margin-top: 40px;
     color: #FFFFFF;
     font-size: 10px;
-    @media(max-width: 919px) {
-        /* height: 50px; */
-    }
-  
 `;
 
 export const InfoContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-   
 `;
 
 export const StyledText = styled.h2`

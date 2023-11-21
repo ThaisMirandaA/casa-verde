@@ -38,4 +38,6 @@ export const StyledLink = styled(Link)`
     font-size: 12px;
     color: #202020;
     cursor: pointer;
+    white-space: nowrap;
+    margin-bottom: 5px;
 `;

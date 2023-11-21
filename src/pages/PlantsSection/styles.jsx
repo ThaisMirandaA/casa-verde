@@ -10,6 +10,9 @@ export const PlantsSectionContainer = styled.section`
 
 export const FilterContainer= styled.div`
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
 `;
 
 export const StylizedButton = styled.button`
@@ -20,10 +23,10 @@ export const StylizedButton = styled.button`
     color: #FFFFFF;
     font-size: 16px;
     height: 40px;
-    margin-right: 20px;
+    margin: 0 10px 10px 0; 
     padding: 10px 20px 20px 20px;
     cursor: pointer;
-    @media(max-width: 919px) {
-        padding-bottom: 80px;
+    @media(max-width: 920px) {
+        padding-bottom: 40px;
     }
 `

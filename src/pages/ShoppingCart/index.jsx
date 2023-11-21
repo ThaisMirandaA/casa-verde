@@ -14,9 +14,7 @@ const ShoppingCart = () => {
             <main>
                 <Header />
                 <SectionContainer>
-                    <ul>
                         {cart.map((item) => (<PlantCardShoppingCart name={item.name} img={item.img} price={item.price} quantity={item.quantity}/>))}
-                    </ul>
                     <Titles>Valor total: {totalValue.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}</Titles>
                 </SectionContainer>
             </main>

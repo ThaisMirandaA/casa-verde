@@ -6,9 +6,10 @@ export const SectionContainer = styled.section`
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    align-content: center;
     padding: 10%;
     position: relative;
-    background-color: #FFFFFF;
+    background-color: #FFFFFF; 
     box-shadow: 10px 10px 30px 0px #0000000F;
     margin: 10%;
     max-width: 60%;
