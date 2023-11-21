@@ -10,7 +10,7 @@ export const PlantContainer = styled.section`
     background-color: #FFFFFF;
     box-shadow: 10px 10px 30px 0px #0000000F;
     @media(max-width: 500px) {
-        padding: 0px 60% 0px 0px;
+        padding: 0px 70% 0px 0px;
     }
 `;
 

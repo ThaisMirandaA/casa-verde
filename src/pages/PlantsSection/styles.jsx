@@ -27,6 +27,7 @@ export const StylizedButton = styled.button`
     padding: 10px 20px 20px 20px;
     cursor: pointer;
     @media(max-width: 920px) {
+        padding-top: 20px;
         padding-bottom: 40px;
     }
 `
